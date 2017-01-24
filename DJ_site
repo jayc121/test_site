@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>	
+    <head>		
+    <meta charset="utf-8">		
+    <title> </title>		
+      <style>
+      h2 			{
+				text-align: center;
+				font-size: 40px; 
+			}
+			.justify
+      {				text-align: justify;
+				font-size: 20px; 
+			}
+      img			{
+ 				display: block;
+			}
+			img.wrap 
+			{
+				max-width: 20%;
+			}
+			img.wrap2 
+			{
+				max-width: 9%;
+			}
+			img.align-right
+			{
+				float: right;
+			}
+			img.align-right2 
+			{
+ 				float: right;
+				margin-left: 30px;
+			}
+      </style>	</head>
+	<body>
+		<h2>heading</h2>
+		<h1>Content :</h1>
+		<ul>
+  			<li><a href="#1"> -- </li></a>
+  			<li><a href="#2"> -- </li></a>
+  			<li><a href="#3"> -- </li></a>
+  			<li><a href="#4"> -- </li></a>
+  			<li><a href="#5"> -- </li></a>
+  			<li><a href="#6"> -- </a>
+        <ul>            
+            <li><a href="link">click here</a></li>
+            <li><a href="link">click here</a></li>
+            <li><a href="link">click here</a></li>
+        </ul>
+        </li>
+        </ul>		<section>
+    		<h1 id="1">Top 10 DJ in the world </h1>
+    		<div class="justify"><img src="	<body>		
+<h2>heading</h2>		
+<h1>Content :</h1>		
+<ul>
+  			<li><a href="#1"> -- </li></a>
+  			<li><a href="#2"> -- </li></a>
+  			<li><a href="#3"> -- </li></a>
+  			<li><a href="#4"> -- </li></a>
+  			<li><a href="#5"> -- </li></a>
+  			<li><a href="#6"> -- </a>
+        <ul>            
+            <li><a href="link">click here</a></li>
+            <li><a href="link">click here</a></li>
+            <li><a href="link">click here</a></li>
+        </ul>
+        </li>
+        </ul>		<section>
+    		<h1 id="1">Top 10 DJ in the world </h1>
+    		<div class="justify"><img src="http://i.imgur.com/oHqu7bX.png  " class="wrap align-right">
+    		<li><b><a href="https://djmag.com/top100dj">text</a>.</li>
+    		</div>
+    		<div class="justify"><li>No. 1.</i></li>
+    		</div>
+    		<div class="justify"><li> <a href="https://djmag.com/top-100-djs/poll-2016-martin-garrix"><b>Standard UPC Barcodes</b></a></i>. g.</li>
+    		</div>
+    		<div class="justify"><li>
+    		</div>
+  		</section>
+      <div style="width: 1260px"> 			<p style="float: right" class="justify"><b>QR Code</b></p>
+		</div> 
+  		<section>
+  			<h1 id="2">No.2</h1>
+  			<div class="justify"><li>.</li>
+    		</div>
+  		</section> 
+  		<section>
+  			<h1 id="3">rest of them<a href="https://top100clubsvote.djmag.com/">UPC Barcode</a>?</h1>
+  			<div class="justify"><img src="http://www.tokyoedm.com/wp-content/uploads/2016/10/DJ-MAG-TOP-100-DJs-2016.jpg" class="wrap align-right2"><li>y.</li>
+  			<div class="justify"><li>Whilst a standard 1D Barcode (UPC/EAN) store
