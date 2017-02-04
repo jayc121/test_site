@@ -1,184 +1,296 @@
+/*
 
-html {
+	Coffeelike by nodethirtythree + Templated.org
+	http://templated.org/ | @templatedorg
+	Released under the Creative Commons Attribution 3.0 License.
+	
+	Note from the author: These templates take quite a bit of time to conceive,
+	design, and finally code. So please, support our efforts by respecting our
+	license: keep our footer credit links intact so people can find out about us
+	and what we do. It's the right thing to do, and we'll love you for it :)
+	
+*/
+
+* {
 	margin: 0;
 	padding: 0;
-	}
-body { 
-	font: 75% georgia, sans-serif;
-	line-height: 1.88889;
-	color: #555753; 
-	background: #fff url(http://csszengarden.com/001/blossoms.jpg) no-repeat bottom right; 
-	margin: 0; 
-	padding: 0;
-	}
-p { 
-	margin-top: 0; 
-	text-align: justify;
-	}
-h3 { 
-	font: italic normal 1.4em georgia, sans-serif;
-	letter-spacing: 1px; 
-	margin-bottom: 0; 
-	color: #7D775C;
-	}
-a:link { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #B7A5DF;
-	}
-a:visited { 
-	font-weight: bold; 
-	text-decoration: none; 
-	color: #D4CDDC;
-	}
-a:hover, a:focus, a:active { 
-	text-decoration: underline; 
-	color: #9685BA;
-	}
-abbr {
-	border-bottom: none;
-	}
-
-
-/* specific divs */
-.page-wrapper { 
-	background: url(http://csszengarden.com/001/zen-bg.jpg) no-repeat top left; 
-	padding: 0 175px 0 110px;  
-	margin: 0; 
-	position: relative;
-	}
-
-.intro { 
-	min-width: 470px;
-	width: 100%;
-	}
-
-header h1 { 
-	background: transparent url(http://csszengarden.com/001/h1.gif) no-repeat top left;
-	margin-top: 10px;
-	display: block;
-	width: 219px;
-	height: 87px;
-	float: left;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header h2 { 
-	background: transparent url(http://csszengarden.com/001/h2.gif) no-repeat top left; 
-	margin-top: 58px; 
-	margin-bottom: 40px; 
-	width: 200px; 
-	height: 18px; 
-	float: right;
-
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-header {
-	padding-top: 20px;
-	height: 87px;
 }
 
-.summary {
-	clear: both; 
-	margin: 20px 20px 20px 10px; 
-	width: 160px; 
+a {
+	color: #1495ff;
+	text-decoration: underline;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+body {
+	font-size: 12pt;
+	line-height: 1.75em;
+	font-family: Georgia, serif;
+	background: #ad8667 url('images/bg.jpg');
+	color: #ebe1d9;
+}
+
+br.clear {
+	clear: both;
+}
+
+h1,h2,h3,h4 {
+	text-transform: lowercase;
+	letter-spacing: -1px;
+}
+
+h2,h3,h4 {
+	margin-bottom: 1em;
+	font-family: Arvo, serif;
+	color: #fff;
+}
+
+img.left {
 	float: left;
-	}
-.summary p {
-	font: italic 1.1em/2.2 georgia; 
+	margin: 5px 20px 20px 0;
+}
+
+img.top {
+	margin: 5px 0 20px 0;
+}
+
+p {
+	margin-bottom: 1.5em;
+}
+
+ul {
+	margin-bottom: 1.5em;
+}
+
+.imageList {
+	list-style: none;
+}
+
+.imageList li {
+	clear: both;
+}
+
+#bg {
+	background: url('images/shadow.png') top left repeat-x;
+}
+
+#banner {
+	background: #fff;
+}
+
+#box1 {
+	width: 745px;
+	overflow: hidden;
+	margin: 0 0 35px 0;
+}
+
+#box2 {
+	width: 355px;
+	overflow: hidden;
+	float: left;
+}
+
+#box3 {
+	width: 355px;
+	overflow: hidden;
+	margin: 0 0 0 390px;
+}
+
+#content {
+	width: 745px;
+	margin: 0 0 0 355px;
+	padding: 40px;
+	background: #fff;
+}
+
+#copyright {
+	padding: 0 0 80px 0;
 	text-align: center;
-	}
+	color: #D8C2AB;
+}
 
-.preamble {
-	clear: right; 
-	padding: 0px 10px 0 10px;
-	}
-.supporting {	
-	padding-left: 10px; 
-	margin-bottom: 40px;
-	}
+#copyright a {
+	color: #D8C2AB;
+}
 
-footer { 
-	text-align: center; 
-	}
-footer a:link, footer a:visited { 
-	margin-right: 20px; 
-	}
+#footer {
+	position: relative;
+	padding: 40px;
+	width: 1100px;
+	color: #e1d2c7;
+}
 
-.sidebar {
-	margin-left: 600px; 
-	position: absolute; 
-	top: 0; 
-	right: 0;
-	}
-.sidebar .wrapper { 
-	font: 10px verdana, sans-serif; 
-	background: transparent url(http://csszengarden.com/001/paper-bg.jpg) top left repeat-y; 
-	padding: 10px; 
-	margin-top: 150px; 
-	width: 130px; 
-	}
-.sidebar h3.select { 
-	background: transparent url(http://csszengarden.com/001/h3.gif) no-repeat top left; 
-	margin: 10px 0 5px 0; 
-	width: 97px; 
-	height: 16px; 
+#footer a {
+	color: #f4eeea;
+}
 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.archives { 
-	background: transparent url(http://csszengarden.com/001/h5.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:57px; 
-	height: 14px; 
+#footer h2, #footer h3, #footer h4 {
+	color: #f4eeea;
+}
 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
-.sidebar h3.resources { 
-	background: transparent url(http://csszengarden.com/001/h6.gif) no-repeat top left; 
-	margin: 25px 0 5px 0; 
-	width:63px; 
-	height: 10px; 
+#footer ul {
+	list-style: none;
+}
 
-	text-indent: 100%;
-	white-space: nowrap;
-	overflow: hidden;
-	}
+#footer ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #c6aa95;
+}
 
+#footer ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
 
-.sidebar ul {
-	margin: 0;
+#footerContent {
+	width: 745px;
+	margin: 0 0 0 355px;
+}
+
+#footerSidebar {
+	width: 240px;
+	float: left;
+}
+
+#header {
+	position: relative;
+	padding: 40px;
+	height: 120px;
+}
+
+#logo {
+	position: absolute;
+	top: 40px;
+	left: 40px;
+	height: 120px;
+	line-height: 120px;
+}
+
+#logo a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#logo h1 {
+	font-size: 3.5em;
+	font-family: Lobster, cursive;
+	text-shadow: 0 2px 1px #32251B;
+}
+
+#main {
+	position: relative;
 	padding: 0;
-	}
-.sidebar li {
-	line-height: 1.3em; 
-	background: transparent url(http://csszengarden.com/001/cr1.gif) no-repeat top center; 
-	display: block; 
-	padding-top: 5px; 
-	margin-bottom: 5px;
-	list-style-type: none;
-	}
-.sidebar li a:link {
-	color: #988F5E;
-	}
-.sidebar li a:visited {
-	color: #B3AE94;
-	}
+	width: 1180px;
+	color: #5e5e5e;
+}
 
+#main strong {
+	color: #3e3e3e;
+}
 
-.extra1 {
-	background: transparent url(http://csszengarden.com/001/cr2.gif) top left no-repeat; 
-	position: absolute; 
-	top: 40px; 
-	right: 0; 
-	width: 148px; 
-	height: 110px;
-	}
+#main a {
+	color: #242424;
+}
+
+#main h2, #main h3, #main h4 {
+	color: #242424;
+}
+
+#main ul {
+	list-style: none;
+}
+
+#main ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #b3b3b3;
+}
+
+#main ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
+
+#main ul.imageList li {
+	padding: 15px 0 15px 0;
+}
+
+#nav {
+	position: absolute;
+	right: 40px;
+	height: 53px;
+	line-height: 53px;
+	top: 73px;
+}
+
+#nav a {
+	text-decoration: none;
+	text-transform: lowercase;
+	color: #f4eeea;
+	text-shadow: 0 1px 1px #32251B;
+	font-size: 1.2em;
+}
+
+#nav li {
+	margin: 0 1em 0 1em;
+}
+
+#nav ul {
+	list-style: none;
+}
+
+#nav ul li {
+	float: left;
+}
+
+#outer {
+	position: relative;
+	width: 1180px;
+	margin: 0 auto;
+	padding: 30px;
+}
+
+#search input.button {
+	margin-left: 1em;
+	border: 0;
+	color: #fff;
+	background: #1495ff;
+	padding: 11px;
+}
+
+#search input.text {
+	border: dotted 1px #fff;
+	padding: 10px;
+}
+
+#sidebar {
+	width: 240px;
+	float: left;
+	padding: 40px;
+	background: #32251b;
+	color: #e1d2c7;
+}
+
+#sidebar a {
+	color: #e2e0df;
+}
+
+#sidebar h2, #sidebar h3, #sidebar h4 {
+	color: #fff;
+}
+
+#sidebar ul {
+	list-style: none;
+}
+
+#sidebar ul li {
+	padding: 15px 0 15px 0;
+	border-top: dotted 1px #70665f;
+}
+
+#sidebar ul li.first {
+	padding-top: 0;
+	border-top: 0;
+}
