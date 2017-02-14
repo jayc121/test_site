@@ -3,7 +3,7 @@
 	color: aqua;
 }
 body {
-	background-image: url(http://wallpapercave.com/wp/vZ7Q9jC.jpg);
+	background-image: url(http://more-sky.com/data/out/8/IMG_252088.png);
     background-attachment: fixed;
     background-size: cover;
 	font-family: Comic Sans MS;
@@ -39,9 +39,7 @@ li {
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Responsive Layout</title>
 /********** Base styles **********/
-* {
-  box-sizing: border-box;
-}
+
 h1 {
   margin-bottom: 15px;
 }
