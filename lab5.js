@@ -2,8 +2,8 @@ function print_largest(a,z){
 
 var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
  
-function bubbleSort(a)
-{
+
+
     var swapped;
     do {
         swapped = false;
@@ -16,11 +16,8 @@ function bubbleSort(a)
             }
         }
     } while (swapped);
-}
+
  
-bubbleSort(a);
-console.log(a);
-function largest(z){
 var z= 2; 
 
 for (i=0; i<=z;i++){
@@ -29,7 +26,7 @@ for (i=0; i<=z;i++){
     }
 }
 }
-}
+
 
 print_largest(a,z);
 console.log(a);
