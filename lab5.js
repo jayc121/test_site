@@ -1,4 +1,4 @@
-function print_largest(bubbleSort,largest){
+function print_largest(a){
 
 var a = [34, 203, 3, 746, 200, 984, 198, 764, 9];
  
