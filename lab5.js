@@ -31,4 +31,5 @@ for (i=0; i<=z;i++){
 }
 }
 
+print_largest(bubbleSort(a),largest(z));
 console.log(a);
