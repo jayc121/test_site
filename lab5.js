@@ -20,14 +20,15 @@ function bubbleSort(a)
  
 bubbleSort(a);
 console.log(a);
-function largest(){
-var largest= 2; 
+function largest(z){
+var z= 2; 
 
-for (i=0; i<=largest;i++){
-    if (a>largest) {
-        var largest=a[i];
+for (i=0; i<=z;i++){
+    if (a>z) {
+        var z=a[i];
     }
 }
 }
 }
+console.log(z);
 console.log(a);
