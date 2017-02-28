@@ -32,3 +32,5 @@ for (i=0; i<=z;i++){
 
 print_largest(a,z);
 console.log(a);
+console.log(z);
+
