@@ -30,5 +30,5 @@ for (i=0; i<=z;i++){
 }
 }
 }
-console.log(z);
+
 console.log(a);
