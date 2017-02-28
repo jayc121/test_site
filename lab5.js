@@ -24,7 +24,8 @@ console.log(a);
 var largest= 2; 
 
 for (i=0; i<=largest;i++){
-    if (array>largest) {
-        var largest=array[i];
+    if (a>largest) {
+        var largest=a[i];
     }
 }
+console.log(a);
