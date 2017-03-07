@@ -20,11 +20,21 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
-    title = " & Lovin' it!";
+    title += " & Lovin' it!";
     document
         .querySelector("h1")
         .textContent = title;
         
     
+  }
+  else{  
+    var title1 = 
+      document
+        .querySelector("#title")
+        .textContent;
+    title1 += "";
+    document
+        .querySelector("h1")
+        .textContent = title1;
   }
 }
