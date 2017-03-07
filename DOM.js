@@ -1,7 +1,7 @@
 // DOM manipulation
 // console.log(document.getElementById("title"));
 // console.log(document instanceof HTMLDocument);
-
+{var counter=0;
 function sayHello () {
   var name =
    document.getElementById("name").value;
@@ -20,10 +20,11 @@ function sayHello () {
       document
         .querySelector("#title")
         .textContent;
-    title += " & Lovin' it!";
+    title = " & Lovin' it!";
     document
         .querySelector("h1")
         .textContent = title;
-    {Break;}
+        
+    
   }
 }
