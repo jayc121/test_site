@@ -30,9 +30,9 @@ function sayHello () {
   else{  
     var title1 = 
       document
-        .querySelector("#title")
+        .querySelector("#title1")
         .textContent;
-    title1 += "";
+    title1 += " ";
     document
         .querySelector("h1")
         .textContent = title1;
