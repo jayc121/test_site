@@ -11,14 +11,14 @@ document.addEventListener("DOMContentLoaded",
           .sendGetRequest("data/name.json", 
             function (res) {
               var message = 
-                res.firstName + " " + res.lastName
-              if (res.likesChineseFood) {
-                message += " likes Chinese food";
+                res.student1
+              if (res.marks) {
+                message += "50";
               }
               else {
-                message += " doesn't like Chinese food";
+                message += " 0";
               }
-              message += " and uses ";
+             
               message += res.numberOfDisplays + 1;
               message += " displays for coding.";
 
