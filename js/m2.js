@@ -1,6 +1,6 @@
 // Event handling
 document.addEventListener("DOMContentLoaded",
-  function (event) {
+  function getmarks(event) {
     
     // Unobtrusive event binding
     document.querySelector("button")
