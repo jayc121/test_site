@@ -9,26 +9,16 @@ document.addEventListener("DOMContentLoaded",
         // Call server to get the name
         $ajaxUtils
           .sendGetRequest("data/name.json", 
-           var name =
-   document.getElementById("name").value;
-   var message = "<h2>" + name + "!</h2>";
-
-  
-
-  document
-    .getElementById("content")
-    .innerHTML = message;
-
-  if (name === student1) {
-    var title = 
-      document
-        .querySelector("#title")
-        .textContent;
-    title +=;
-    document
-        .querySelector("h1")
-        .textContent = marks;
-  }
+         function (res) {
+              var message = 
+                res.student1
+              if (res.marks) {
+                message += " marks are 50";
+              }
+              else {
+                message += " fail";
+              }
+             
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
