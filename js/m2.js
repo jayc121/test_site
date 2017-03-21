@@ -10,17 +10,11 @@ document.addEventListener("DOMContentLoaded",
         $ajaxUtils
           .sendGetRequest("data/name.json", 
             function (res) {
+          if(res.student1){
               var message = 
                 res.student1
-              if (res.marks) {
-                message += "50";
-              }
-              else {
-                message += " 0";
-              }
-             
-              message += res.numberOfDisplays + 1;
-              message += " displays for coding.";
+             var message2 = res.marks
+             } 
 
               document.querySelector("#content")
                 .innerHTML = "<h2>" + message + "</h2>";
