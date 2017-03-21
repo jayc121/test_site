@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded",
     .getElementById("content")
     .innerHTML = message;
 
-  if (name === res.student1) {
+  if (name === student1) {
     var title = 
       document
         .querySelector("#title")
